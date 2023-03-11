@@ -11,3 +11,6 @@ if ((n % 4 == 0) and (n % 100 != 0)) or (n % 400 == 0):
     print('Високосный')
 else:
     print('Обычный')
+
+# тернарный вариант:
+# print('YES') if ((year%4 == 0) and (year%100 != 0)) or (year%400 == 0) else print("NO")
