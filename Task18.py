@@ -10,8 +10,8 @@ arr = [i for i in range(n)]
 print(arr)
 x = int(input('Введите число для поиска: '))
 
-result = 0
+result = arr[0]
 for i in range(len(arr)):
     if (x-arr[i]) < x-result and x-arr[i] > 0:
         result = i
-print(result)
+print(result) 
