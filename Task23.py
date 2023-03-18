@@ -7,7 +7,7 @@
 start_list = [0, -1, 5, 2, 3]
 
 count = 0
-for i in range(1, len(start_list)):
+for i in range(1, len(start_list)):         #(1, len(start_list))  --> начало со 2го индекса
     if start_list[i] > start_list[i - 1]:
         count += 1
 
