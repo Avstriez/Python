@@ -9,4 +9,12 @@ print(n)
 for i in range(k):
     element = n.pop(-1)
     n.insert(0, element)
-print(n) 
+print(n)
+
+# ВАРИАНТ СРЕЗАМИ:
+# k = int(input('Введите количество сдвигов: '))
+# arr = [1, 2, 3, 4, 5]
+# n = len(arr)
+# k = k % n
+# arr = arr[-k:] + arr[:-k]
+# print(arr) 
