@@ -9,11 +9,9 @@
 a = int(input('a: '))
 b = int(input('b: '))
 
-
 def sum_func(a, b):
     if a == 0:
         return b
     return sum_func(a - 1, b + 1)
-
 
 print(sum_func(a, b))
